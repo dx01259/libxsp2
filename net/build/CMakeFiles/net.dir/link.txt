@@ -1,0 +1,1 @@
+g++  -fPIC    -shared -Wl,-soname,libnet.so -o libnet.so CMakeFiles/net.dir/src/InetAddr.cpp.o CMakeFiles/net.dir/src/InetTable.cpp.o CMakeFiles/net.dir/src/LocalIpList.cpp.o CMakeFiles/net.dir/src/AsyncSocket.cpp.o CMakeFiles/net.dir/src/TcpService.cpp.o CMakeFiles/net.dir/src/UdpService.cpp.o CMakeFiles/net.dir/src/HttpService.cpp.o CMakeFiles/net.dir/src/SocketEpollTask.cpp.o 
